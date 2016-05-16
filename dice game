@@ -10,5 +10,3 @@ die2 = random.randint(1, 6)
 total = die1 + die2
 print ("The dice rolled", total)
 print ("Your guess:", guess)
-
-print("This is a test")
