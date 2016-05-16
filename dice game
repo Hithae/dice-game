@@ -9,3 +9,4 @@ die2 = random.randint(1, 6)
 
 total = die1 + die2
 print (total)
+print ("Your guess:", guess)
