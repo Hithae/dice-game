@@ -1,3 +1,11 @@
+import random
+
+die1 = random.randint(1, 6)
+import random
+
+die1 = random.randint(1, 6)
+die2 = random.randint(1, 6)
+
 total = die1 + die2
 
 print ("Welcome to the dice rolling game.")
@@ -13,9 +21,13 @@ def start():
     else:
         print("Wrong input. Please try again.")
 
+
+
+
 while (guess != total):
     print ("Your guess:", guess, "\n\
 the dice rolled", total)
     start()
+    break
 
 # Still not sure about this while loop, I think it's not needed, since the if statements replace it, thoughts?
