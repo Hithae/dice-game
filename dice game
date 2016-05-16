@@ -8,5 +8,5 @@ die1 = random.randint(1, 6)
 die2 = random.randint(1, 6)
 
 total = die1 + die2
-print (total)
+print ("The dice rolled", total)
 print ("Your guess:", guess)
