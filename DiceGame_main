@@ -23,6 +23,9 @@ while guess != total:
     if guess == total:
         print("You guessed the number! It was", total)
         break
+        
+    else:
+        print("Better luck next time, the dice roll number was", total)
 
 
 
