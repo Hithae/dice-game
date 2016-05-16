@@ -4,11 +4,12 @@ print ("Welcome to the dice rolling game.")
 
 guess = ""
 
-def start
+def start():
     guess = int(input("Guess a roll number from 2-12 \n>"))
     if guess != int:
         print ("Wrong input. Please try again.")
-        start
+        start()
+    else:
 
 die1 = random.randint(1, 6)
 die2 = random.randint(1, 6)
