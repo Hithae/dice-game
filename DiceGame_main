@@ -1,0 +1,35 @@
+import random
+
+die1 = random.randint(1, 6)
+die2 = random.randint(1, 6)
+
+total = die1 + die2
+
+guess = ""
+
+print(total)
+
+print ("Welcome to the dice rolling game.")
+
+while guess != total:
+
+    try:
+        guess = int(input("Guess a roll number from 2-12 \n>"))
+        break
+    except:
+        print("Please enter an integer between 2-12")
+
+
+    if guess == total:
+        print("You guessed the number! It was", total)
+        break
+
+
+
+
+
+
+
+
+
+
