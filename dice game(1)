@@ -1,0 +1,21 @@
+total = die1 + die2
+
+print ("Welcome to the dice rolling game.")
+
+guess = int(input("Guess a roll number from 2-12 \n>"))
+
+def start():
+    if guess == int:
+        if guess == total:
+            print("You guessed the number! It was", total)
+
+
+    else:
+        print("Wrong input. Please try again.")
+
+while (guess != total):
+    print ("Your guess:", guess, "\n\
+the dice rolled", total)
+    start()
+
+# Still not sure about this while loop, I think it's not needed, since the if statements replace it, thoughts?
