@@ -1,0 +1,11 @@
+import random
+
+print ("Welcome to the dice rolling game.")
+
+guess = input("Guess a roll number from 2-12 \n>")
+
+die1 = random.randint(1, 6)
+die2 = random.randint(1, 6)
+
+total = die1 + die2
+print (total)
