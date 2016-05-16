@@ -7,14 +7,18 @@ total = die1 + die2
 
 print ("Welcome to the dice rolling game.")
 
+guess = int(input("Guess a roll number from 2-12 \n>"))
+
 def start():
-    guess = int(input("Guess a roll number from 2-12 \n>"))
     if guess != int:
+        start()
+    elif guess == total: 
+        print("You guessed the number! It was", total)  
+    else:
         print ("Wrong input. Please try again.")
         start()
-    else:
-
 
 while (guess != total):
     print ("Your guess:", guess, "\n\
 the dice rolled", total)
+    start()
