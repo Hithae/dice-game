@@ -10,3 +10,25 @@ die2 = random.randint(1, 6)
 total = die1 + die2
 print ("The dice rolled", total)
 print ("Your guess:", guess)
+<<<<<<< HEAD
+=======
+
+
+
+vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+
+import random
+
+print ("Welcome to the dice rolling game.")
+
+
+guess = int(input("Guess a roll number from 2-12 \n>"))
+
+die1 = random.randint(1, 6)
+die2 = random.randint(1, 6)
+
+total = die1 + die2
+while (guess != total):
+    print ("Your guess:", guess, "\n\
+the dice rolled", total)
+>>>>>>> origin/master
