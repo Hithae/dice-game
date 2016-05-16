@@ -7,8 +7,6 @@ total = die1 + die2
 
 print ("Welcome to the dice rolling game.")
 
-guess = ""
-
 def start():
     guess = int(input("Guess a roll number from 2-12 \n>"))
     if guess != int:
